@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @reg.username %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @reg.password %>
+</p>
+
+<p>
+  <strong>Dateofbirth:</strong>
+  <%= @reg.dateofbirth %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @reg.email %>
+</p>
+
+<p>
+  <strong>Telephone:</strong>
+  <%= @reg.telephone %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @reg.address %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @reg.city %>
+</p>
+
+<p>
+  <strong>Postcode:</strong>
+  <%= @reg.postcode %>
+</p>
+
+<%= link_to 'Edit', edit_reg_path(@reg) %> |
+<%= link_to 'Back', regs_path %>
